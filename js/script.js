@@ -4,6 +4,6 @@ $('.page-scroll').on('click', function(){
 	var elemenTujuh = $(tujuan);
 	$('body').animate({
 		scrollTop: elemenTujuh.offset().top - 50
-	}, 1000);	
+	}, 1000, 'easeInOutExpo');	
 
 });
